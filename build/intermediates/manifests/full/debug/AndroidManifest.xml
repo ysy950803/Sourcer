@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ysy.sourcer_slidingmenu"
+    android:versionCode="9"
+    android:versionName=" 3.1" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+    <!-- 添加可以向外拨打电话和发短信的权限 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.ysy.sourcer_slidingmenu.SplashActivity"
+            android:configChanges="keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ysy.student.activity.Option"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ysy.sourcer_apartments.Presidium"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ysy.sourcer_apartments.Academic"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ysy.sourcer_apartments.Electrician"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ysy.sourcer_apartments.Media"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ysy.sourcer_apartments.Office"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ysy.sourcer_apartments.Software"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ysy.student.activity.StudentListActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ysy.student.activity.AddStudentActivity"
+            android:label="成员信息添加"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity
+            android:name="com.ysy.student.activity.ShowStudentActivity"
+            android:label="成员信息详情"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ysy.student.activity.StudentSearch"
+            android:label="成员信息搜索"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ysy.pattern.LockPatternActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ysy.pattern.SetPatternActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ysy.student.activity.QASuosiWebActivity"
+            android:label="@string/title_activity_qasuosi_web" />
+    </application>
+
+</manifest>

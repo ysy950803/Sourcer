@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sourcer</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="version_title">Version</string>
+    <string name="about_sourcer_intro">
+        "        Thank you for using this App.
+        Sourcer is an Android application made by Technology Apartment of Source that provides our members with access to their information when searching, adding, updating or deleting the relative content more easily. That's a lot remaining to be improved and we appreciate any feedback you may have."</string>
+	<string name="email_password">
+	    "索思公邮：committee@suosikeji.com
+密码：jitongsuosi"</string>
+    <string name="about_team">"@Technology Apartment of Source"</string>
+    <string name="about_advice_email">"意见反馈：632599008@qq.com"</string>
+    <string name="updatelog">"·Version 3.1（2016.01.05）
+        修复部分月日生日不提醒的问题；
+        增加安全补丁，防破解及数据泄漏。
+·Version 3.0（2015.12.25）
+        推出全新功能：生日提醒（2016年全年生日数据），生日当天开启应用即有浮窗提醒，并在搜索功能中手动查看；
+        优化主页侧滑效果，更流畅更顺滑更灵敏；
+        更换主页面所有图标为谷歌官方推荐图标；
+        为各种提示框设置透明度，风格更统一美观；
+        修复部分列表信息的即时刷新问题。
+·Version 2.5（2015.12.11）
+        内嵌“索思索问”问答平台，顶部增加网页进度条和一键关闭按钮（无需连续返回），完美兼容手机端；
+        修复欢迎界面未全屏的BUG；
+        APK已签名，绑定合法证书。
+·Version 2.4（2015.11.23）
+        载入全员生日数据，阴历生日自动适应为2016年的公历，未知数据设默认值为1970/1/1；
+        修复部分搜索BUG（去除姓名中的空格字符）；
+        修改各种输入框的提示字体颜色，更清晰；
+        部分图标按下状态着色。
+·Version 2.3（2015.11.20）
+        为图案密码本地数据存储增加了加密算法，防破解；
+        禁止横竖屏切换；
+        增加夜间模式，在主页面点击右上角“月亮”图标即可开关。
+·Version 2.2（2015.11.14）
+        重绘部分图标，重新设计设置页面，优化UI；
+        新增应用启动图案密码解锁功能，可点击“齿轮”图标进入设置页面设置和开启图案密码；
+        现在除了主页面的列表项目可点击进入详细信息外，搜索结果以及各部门的列表项目均可点击查看个人详细信息；
+        个人详细信息页面新增快捷拨号和发短信功能（会调用系统拨号键盘和短信功能，提示需要获取权限时请选择允许）。
+·Version 2.1（2015.10.13）
+        新增一键登录校园网功能（解除校园网登录5s限制），升级后点击侧滑栏左下角的“信号”图标即可安装此插件并使用。
+·Version 2.0（2015.09.27）
+        优化代码和UI，提高启动和运行速度；
+        全面支持安卓5.0（Lollipop）。"</string>
+
+    <string name="title_activity_qasuosi_web">索思索问</string>
+
+</resources>

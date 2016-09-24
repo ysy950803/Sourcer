@@ -1,0 +1,185 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:2:1-87:12
+	package
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:4:5-42
+		INJECTED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:6:5-31
+		INJECTED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:5:5-28
+		INJECTED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:support-v4:21.0.3] E:\AndroidStudioProjects\Development\Sourcer\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\AndroidManifest.xml:15:5-42
+	android:targetSdkVersion
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:10:9-38
+		INJECTED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:9:9-35
+		INJECTED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml
+uses-permission#android.permission.CALL_PHONE
+ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:12:5-69
+	android:name
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:12:22-66
+uses-permission#android.permission.SEND_SMS
+ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:13:5-67
+	android:name
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:13:22-64
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:14:5-73
+	android:name
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:14:22-70
+uses-permission#android.permission.INTERNET
+ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:15:5-67
+	android:name
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:15:22-64
+android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:17:5-89
+	android:name
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:17:30-86
+android:uses-permission#android.permission.READ_PHONE_STATE
+ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:18:5-83
+	android:name
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:18:30-80
+android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:19:5-88
+	android:name
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:19:30-85
+application
+ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:21:5-85:19
+MERGED from [com.android.support:support-v4:21.0.3] E:\AndroidStudioProjects\Development\Sourcer\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\AndroidManifest.xml:16:5-19
+	android:label
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:24:9-41
+	android:allowBackup
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:22:9-35
+	android:icon
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:23:9-45
+	android:theme
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:25:9-40
+activity#com.ysy.sourcer_slidingmenu.SplashActivity
+ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:26:9-37:20
+	android:screenOrientation
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:30:13-49
+	android:label
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:29:13-45
+	android:configChanges
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:28:13-51
+	android:theme
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:31:13-71
+	android:name
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:27:13-43
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:32:13-36:29
+action#android.intent.action.MAIN
+ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:33:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:35:17-77
+	android:name
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:35:27-74
+activity#com.ysy.student.activity.Option
+ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:38:9-40:52
+	android:screenOrientation
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:40:13-49
+	android:name
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:39:13-59
+activity#com.ysy.sourcer_apartments.Presidium
+ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:41:9-43:52
+	android:screenOrientation
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:43:13-49
+	android:name
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:42:13-64
+activity#com.ysy.sourcer_apartments.Academic
+ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:44:9-46:52
+	android:screenOrientation
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:46:13-49
+	android:name
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:45:13-63
+activity#com.ysy.sourcer_apartments.Electrician
+ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:47:9-49:52
+	android:screenOrientation
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:49:13-49
+	android:name
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:48:13-66
+activity#com.ysy.sourcer_apartments.Media
+ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:50:9-52:52
+	android:screenOrientation
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:52:13-49
+	android:name
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:51:13-60
+activity#com.ysy.sourcer_apartments.Office
+ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:53:9-55:52
+	android:screenOrientation
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:55:13-49
+	android:name
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:54:13-61
+activity#com.ysy.sourcer_apartments.Software
+ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:56:9-58:52
+	android:screenOrientation
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:58:13-49
+	android:name
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:57:13-63
+activity#com.ysy.student.activity.StudentListActivity
+ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:59:9-62:52
+	android:screenOrientation
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:62:13-49
+	android:label
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:61:13-45
+	android:name
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:60:13-72
+activity#com.ysy.student.activity.AddStudentActivity
+ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:63:9-67:71
+	android:screenOrientation
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:66:13-49
+	android:label
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:65:13-35
+	android:windowSoftInputMode
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:67:13-68
+	android:name
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:64:13-71
+activity#com.ysy.student.activity.ShowStudentActivity
+ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:68:9-71:52
+	android:screenOrientation
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:71:13-49
+	android:label
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:70:13-35
+	android:name
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:69:13-72
+activity#com.ysy.student.activity.StudentSearch
+ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:72:9-75:52
+	android:screenOrientation
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:75:13-49
+	android:label
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:74:13-35
+	android:name
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:73:13-66
+activity#com.ysy.pattern.LockPatternActivity
+ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:76:9-78:52
+	android:screenOrientation
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:78:13-49
+	android:name
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:77:13-63
+activity#com.ysy.pattern.SetPatternActivity
+ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:79:9-81:52
+	android:screenOrientation
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:81:13-49
+	android:name
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:80:13-62
+activity#com.ysy.student.activity.QASuosiWebActivity
+ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:82:9-84:75
+	android:label
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:84:13-63
+	android:name
+		ADDED from E:\AndroidStudioProjects\Development\Sourcer\src\main\AndroidManifest.xml:83:13-71

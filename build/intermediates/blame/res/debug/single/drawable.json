@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "E:\\AndroidStudioProjects\\Development\\Sourcer\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_multi_select.png",
+        "source": "E:\\AndroidStudioProjects\\Development\\Sourcer\\src\\main\\res\\drawable\\ic_multi_select.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Development\\Sourcer\\build\\intermediates\\res\\merged\\debug\\drawable\\press.png",
+        "source": "E:\\AndroidStudioProjects\\Development\\Sourcer\\src\\main\\res\\drawable\\press.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Development\\Sourcer\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_option.png",
+        "source": "E:\\AndroidStudioProjects\\Development\\Sourcer\\src\\main\\res\\drawable\\ic_option.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Development\\Sourcer\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_login_pressed.png",
+        "source": "E:\\AndroidStudioProjects\\Development\\Sourcer\\src\\main\\res\\drawable\\ic_login_pressed.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Development\\Sourcer\\build\\intermediates\\res\\merged\\debug\\drawable\\press_button.xml",
+        "source": "E:\\AndroidStudioProjects\\Development\\Sourcer\\src\\main\\res\\drawable\\press_button.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Development\\Sourcer\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_msg.png",
+        "source": "E:\\AndroidStudioProjects\\Development\\Sourcer\\src\\main\\res\\drawable\\ic_msg.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Development\\Sourcer\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_button_pressed_bg.png",
+        "source": "E:\\AndroidStudioProjects\\Development\\Sourcer\\src\\main\\res\\drawable\\ic_button_pressed_bg.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Development\\Sourcer\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_button_bg.png",
+        "source": "E:\\AndroidStudioProjects\\Development\\Sourcer\\src\\main\\res\\drawable\\ic_button_bg.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Development\\Sourcer\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_nightmode.xml",
+        "source": "E:\\AndroidStudioProjects\\Development\\Sourcer\\src\\main\\res\\drawable\\btn_nightmode.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Development\\Sourcer\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_normal_bg.xml",
+        "source": "E:\\AndroidStudioProjects\\Development\\Sourcer\\src\\main\\res\\drawable\\btn_normal_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Development\\Sourcer\\build\\intermediates\\res\\merged\\debug\\drawable\\error.png",
+        "source": "E:\\AndroidStudioProjects\\Development\\Sourcer\\src\\main\\res\\drawable\\error.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Development\\Sourcer\\build\\intermediates\\res\\merged\\debug\\drawable\\test_button.xml",
+        "source": "E:\\AndroidStudioProjects\\Development\\Sourcer\\src\\main\\res\\drawable\\test_button.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Development\\Sourcer\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_search.png",
+        "source": "E:\\AndroidStudioProjects\\Development\\Sourcer\\src\\main\\res\\drawable\\ic_search.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Development\\Sourcer\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_loginschoolnet.xml",
+        "source": "E:\\AndroidStudioProjects\\Development\\Sourcer\\src\\main\\res\\drawable\\btn_loginschoolnet.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Development\\Sourcer\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_option.xml",
+        "source": "E:\\AndroidStudioProjects\\Development\\Sourcer\\src\\main\\res\\drawable\\btn_option.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Development\\Sourcer\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_call.png",
+        "source": "E:\\AndroidStudioProjects\\Development\\Sourcer\\src\\main\\res\\drawable\\ic_call.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Development\\Sourcer\\build\\intermediates\\res\\merged\\debug\\drawable\\icon.png",
+        "source": "E:\\AndroidStudioProjects\\Development\\Sourcer\\src\\main\\res\\drawable\\icon.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Development\\Sourcer\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_option_pressed.png",
+        "source": "E:\\AndroidStudioProjects\\Development\\Sourcer\\src\\main\\res\\drawable\\ic_option_pressed.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Development\\Sourcer\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_login.png",
+        "source": "E:\\AndroidStudioProjects\\Development\\Sourcer\\src\\main\\res\\drawable\\ic_login.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Development\\Sourcer\\build\\intermediates\\res\\merged\\debug\\drawable\\normal.png",
+        "source": "E:\\AndroidStudioProjects\\Development\\Sourcer\\src\\main\\res\\drawable\\normal.png"
+    }
+]

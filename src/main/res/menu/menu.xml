@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="none">
+        <item android:id="@+id/delete" android:title="删除成员信息" />
+        <item android:id="@+id/look" android:title="查看详细信息" />
+        <item android:id="@+id/add" android:title="添加成员信息" />
+        <item android:id="@+id/write" android:title="修改成员信息" />
+    </group>
+</menu>

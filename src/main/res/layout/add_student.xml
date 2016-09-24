@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="?attr/referenceValue" >
+
+    
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:fillViewport="true"
+        android:scrollbarStyle="outsideInset"
+        android:background="#77ffffff" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/rl_stu_id"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dip" >
+
+                <TextView
+                    android:id="@+id/tv_stu_text_id"
+                    android:layout_width="80dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="5dip"
+                    android:layout_marginTop="5dip"
+                    android:gravity="center_vertical|right"
+                    android:text="序号："
+            		android:textStyle="bold"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_stu_id"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@id/tv_stu_text_id"
+                    android:layout_toRightOf="@id/tv_stu_text_id"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:text="保存后自动分配"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1" />
+
+            <RelativeLayout
+                android:id="@+id/rl_stu_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip" >
+
+                <TextView
+                    android:id="@+id/tv_name_text"
+                    android:layout_width="80dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="5dip"
+                    android:gravity="center_vertical|right"
+                    android:text="姓名："
+                    android:textStyle="bold"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/et_name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@id/tv_name_text"
+                    android:layout_toRightOf="@id/tv_name_text"
+                    android:hint="请输入姓名"
+                    android:textColorHint="@color/transparent"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/background_light"
+                    android:paddingLeft="20dip" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1" />
+
+            <RelativeLayout
+                android:id="@+id/rl_stu_age"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/tv_apartment_text"
+                    android:layout_width="80dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="5dip"
+                    android:gravity="center_vertical|right"
+                    android:text="部门："
+                    android:textStyle="bold"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/et_apartment"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@id/tv_apartment_text"
+                    android:layout_toRightOf="@id/tv_apartment_text"
+                    android:hint="请按正确格式输入部门"
+                    android:textColorHint="@color/transparent"
+                    android:textColor="@android:color/background_light"
+                    android:textStyle="bold"
+                    android:paddingLeft="20dip" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1" />
+
+            <RelativeLayout
+                android:id="@+id/rl_stu_sex"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/tv_sex_text"
+                    android:layout_width="80dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="5dip"
+                    android:gravity="center_vertical|right"
+                    android:text="性别："
+                    android:textStyle="bold"
+                    android:textSize="16sp" />
+
+                <RadioGroup
+                    android:id="@+id/rg_sex"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@id/tv_sex_text"
+                    android:layout_toRightOf="@id/tv_sex_text"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/rb_sex_male"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="男"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/rb_sex_female"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="女"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="16sp" />
+                </RadioGroup>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1" />
+
+            <RelativeLayout
+                android:id="@+id/rl_stu_likes"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/tv_classes_text"
+                    android:layout_width="80dip"
+                    android:layout_height="40dip"
+                    android:layout_marginBottom="5dip"
+                    android:layout_marginRight="5dip"
+                    android:gravity="center_vertical|right"
+                    android:text="班级："
+                    android:textStyle="bold"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/et_classes"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@id/tv_classes_text"
+                    android:layout_toRightOf="@id/tv_classes_text"
+                    android:hint="请输入班级"
+                    android:textColorHint="@color/transparent"
+                    android:textColor="@android:color/background_light"
+                    android:textStyle="bold"
+                    android:paddingLeft="20dip" />
+
+                
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1" />
+
+            <RelativeLayout
+                android:id="@+id/rl_stu_phone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dip" >
+
+                <TextView
+                    android:id="@+id/tv_phone_text"
+                    android:layout_width="80dip"
+                    android:layout_height="40dip"
+                    android:layout_marginBottom="5dip"
+                    android:layout_marginRight="5dip"
+                    android:gravity="center_vertical|right"
+                    android:text="联系电话："
+                    android:textStyle="bold"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/et_phone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@id/tv_phone_text"
+                    android:layout_toRightOf="@id/tv_phone_text"
+                    android:hint="请输入手机号"
+                    android:textColorHint="@color/transparent"
+                    android:textColor="@android:color/background_light"
+                    android:textStyle="bold"
+                    android:inputType="number"
+                    android:paddingLeft="20dip" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1" />
+
+            <RelativeLayout
+                android:id="@+id/rl_stu_birthday"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dip" >
+
+                <TextView
+                    android:id="@+id/tv_birthday_text"
+                    android:layout_width="80dip"
+                    android:layout_height="40dip"
+                    android:layout_marginBottom="5dip"
+                    android:layout_marginRight="5dip"
+                    android:gravity="center_vertical|right"
+                    android:text="生日："
+                    android:textStyle="bold"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/et_birthday"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@id/tv_birthday_text"
+                    android:layout_toRightOf="@id/tv_birthday_text"
+                    android:focusable="false"
+                    android:hint="点击选择日期"
+                    android:textColorHint="@color/transparent"
+                    android:textColor="@android:color/background_light"
+                    android:textStyle="bold"
+                    android:inputType="date"
+                    android:paddingLeft="20dip" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        
+        android:background="#77ffffff"
+        android:orientation="horizontal"
+         >
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textColor="@android:color/background_light"
+            android:text="保   存" />
+
+        <Button
+            android:id="@+id/btn_clear"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textColor="@android:color/background_light"
+            android:text="重   置" />
+    </LinearLayout>
+
+</LinearLayout>

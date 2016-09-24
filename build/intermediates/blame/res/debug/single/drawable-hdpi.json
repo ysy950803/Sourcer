@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "E:\\AndroidStudioProjects\\Development\\Sourcer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_btn_nightmode.png",
+        "source": "E:\\AndroidStudioProjects\\Development\\Sourcer\\src\\main\\res\\drawable-hdpi\\ic_btn_nightmode.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Development\\Sourcer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\welcome.png",
+        "source": "E:\\AndroidStudioProjects\\Development\\Sourcer\\src\\main\\res\\drawable-hdpi\\welcome.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Development\\Sourcer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon.png",
+        "source": "E:\\AndroidStudioProjects\\Development\\Sourcer\\src\\main\\res\\drawable-hdpi\\icon.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Development\\Sourcer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_togglemenu.png",
+        "source": "E:\\AndroidStudioProjects\\Development\\Sourcer\\src\\main\\res\\drawable-hdpi\\btn_togglemenu.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Development\\Sourcer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\img_frame_background.png",
+        "source": "E:\\AndroidStudioProjects\\Development\\Sourcer\\src\\main\\res\\drawable-hdpi\\img_frame_background.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Development\\Sourcer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "E:\\AndroidStudioProjects\\Development\\Sourcer\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Development\\Sourcer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_test.png",
+        "source": "E:\\AndroidStudioProjects\\Development\\Sourcer\\src\\main\\res\\drawable-hdpi\\btn_test.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Development\\Sourcer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_btn_nightmode_pressed.png",
+        "source": "E:\\AndroidStudioProjects\\Development\\Sourcer\\src\\main\\res\\drawable-hdpi\\ic_btn_nightmode_pressed.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Development\\Sourcer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\img_frame_background_night.png",
+        "source": "E:\\AndroidStudioProjects\\Development\\Sourcer\\src\\main\\res\\drawable-hdpi\\img_frame_background_night.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Development\\Sourcer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_test_press.png",
+        "source": "E:\\AndroidStudioProjects\\Development\\Sourcer\\src\\main\\res\\drawable-hdpi\\btn_test_press.png"
+    }
+]
